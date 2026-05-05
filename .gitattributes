@@ -1,0 +1,61 @@
+# Configurations
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+.gitmodules    text eol=lf
+.editorconfig  text eol=lf
+.clang-format  text eol=lf
+.clang-tidy    text eol=lf
+
+# C++ Build System / Package Manager / Tools
+CMakeLists.txt text eol=lf
+*.py           text eol=lf
+*.dotori       text eol=lf
+*.sln          text eol=lf
+*.slnx         text eol=lf
+*.csproj       text eol=lf
+*.vcxproj      text eol=lf
+*.xcworkspace  text eol=lf
+*.xcodeproj    text eol=lf
+*.pbxproj      text eol=lf
+*.cs           text eol=lf
+*.bat          text eol=lf
+*.ps1          text eol=lf
+*.sh           text eol=lf
+
+# C++/Swift/Objective-C Codes
+*.c            text eol=lf
+*.cpp          text eol=lf
+*.cppm         text eol=lf
+*.ixx          text eol=lf
+*.cxx          text eol=lf
+*.h            text eol=lf
+*.hpp          text eol=lf
+*.swift        text eol=lf
+*.m            text eol=lf
+*.mm           text eol=lf
+
+# Documentations
+*.md           text eol=lf
+*.json         text eol=lf
+*.toml         text eol=lf
+*.yml          text eol=lf
+*.xml          text eol=lf
+*.html         text eol=lf
+
+# Assets
+*.slang        text eol=lf
+*.png          binary
+*.dds          binary
+*.ktx          binary
+*.ico          binary
+*.opus         binary
+*.ogg          binary
+*.mp3          binary
+# fbx는 텍스트 파일일 수도 있지만 그냥 바이너리 파일로 친다
+*.fbx          binary
+*.obj          binary
+*.gltf         text eol=lf
+*.glb          binary
+*.bin          binary
+*.mkv          binary
+*.mka          binary
